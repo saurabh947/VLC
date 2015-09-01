@@ -1,0 +1,93 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3494), pid=4652, tid=2748
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 6.0_35-b10
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (20.10-b01 mixed mode windows-amd64 compressed oops)
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00000000003cc800):  JavaThread "Unknown thread" [_thread_in_vm, id=2748, stack(0x0000000001e30000,0x0000000001f30000)]
+
+Stack: [0x0000000001e30000,0x0000000001f30000]
+[error occurred during error reporting (printing stack bounds), id 0xc0000005]
+
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x00000000003cc800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=2748, stack(0x0000000001e30000,0x0000000001f30000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x0000000000400000 - 0x000000000042f000 	C:\Program Files\Java\jre6\bin\javaw.exe
+0x00007ff904370000 - 0x00007ff90451a000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ff902180000 - 0x00007ff9022ba000 	C:\WINDOWS\system32\KERNEL32.DLL
+0x00007ff901a40000 - 0x00007ff901b4f000 	C:\WINDOWS\system32\KERNELBASE.dll
+0x00007ff8ff8e0000 - 0x00007ff8ff968000 	C:\WINDOWS\system32\apphelp.dll
+0x00007ff8f8e40000 - 0x00007ff8f8e8f000 	C:\WINDOWS\AppPatch\AppPatch64\AcGenral.DLL
+0x00007ff902b50000 - 0x00007ff902bf7000 	C:\WINDOWS\system32\msvcrt.dll
+0x00007ff9014b0000 - 0x00007ff9014db000 	C:\WINDOWS\SYSTEM32\SspiCli.dll
+0x00007ff901bf0000 - 0x00007ff901c41000 	C:\WINDOWS\system32\SHLWAPI.dll
+0x00007ff901c50000 - 0x00007ff901dc1000 	C:\WINDOWS\system32\USER32.dll
+0x00007ff902660000 - 0x00007ff9027d8000 	C:\WINDOWS\system32\ole32.dll
+0x00007ff902c00000 - 0x00007ff904017000 	C:\WINDOWS\system32\SHELL32.dll
+0x00007ff9008d0000 - 0x00007ff9008ee000 	C:\WINDOWS\SYSTEM32\USERENV.dll
+0x00007ff901e30000 - 0x00007ff901ed5000 	C:\WINDOWS\system32\ADVAPI32.dll
+0x00007ff8f6580000 - 0x00007ff8f659b000 	C:\WINDOWS\SYSTEM32\MPR.dll
+0x00007ff902860000 - 0x00007ff902996000 	C:\WINDOWS\system32\RPCRT4.dll
+0x00007ff9027f0000 - 0x00007ff902847000 	C:\WINDOWS\SYSTEM32\sechost.dll
+0x00007ff904060000 - 0x00007ff904236000 	C:\WINDOWS\SYSTEM32\combase.dll
+0x00007ff9029a0000 - 0x00007ff902ae5000 	C:\WINDOWS\system32\GDI32.dll
+0x00007ff9016e0000 - 0x00007ff9016f4000 	C:\WINDOWS\SYSTEM32\profapi.dll
+0x00007ff9010b0000 - 0x00007ff90114f000 	C:\WINDOWS\SYSTEM32\SHCORE.dll
+0x00007ff904020000 - 0x00007ff904054000 	C:\WINDOWS\system32\IMM32.DLL
+0x00007ff902380000 - 0x00007ff9024b9000 	C:\WINDOWS\system32\MSCTF.dll
+0x000000006d800000 - 0x000000006dfb9000 	C:\Program Files\Java\jre6\bin\server\jvm.dll
+0x00007ff8fc3c0000 - 0x00007ff8fc3df000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ff8fc5c0000 - 0x00007ff8fc5ea000 	C:\WINDOWS\SYSTEM32\WINMMBASE.dll
+0x00007ff901b50000 - 0x00007ff901b9a000 	C:\WINDOWS\SYSTEM32\cfgmgr32.dll
+0x00007ff8ffb30000 - 0x00007ff8ffb56000 	C:\WINDOWS\SYSTEM32\DEVOBJ.dll
+0x000000006d770000 - 0x000000006d77e000 	C:\Program Files\Java\jre6\bin\verify.dll
+0x000000006d3b0000 - 0x000000006d3d7000 	C:\Program Files\Java\jre6\bin\java.dll
+0x000000006d7c0000 - 0x000000006d7d2000 	C:\Program Files\Java\jre6\bin\zip.dll
+0x00007ff904360000 - 0x00007ff904367000 	C:\WINDOWS\system32\PSAPI.DLL
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:E:\android\adt-bundle-windows-x86_64-20131030\adt-bundle-windows-x86_64-20131030\sdk\platforms\android-18\android.jar 
+java_command: org.opencv.samples.colorblobdetect.Coding
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jre6\bin
+PATH=C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\3.0\bin\x64;C:\Program Files\Java\jre6\bin;E:\apache-ant-1.7.1\bin;http://sourceforge.net/projects/opencvlibrary/files/opencv-android/
+USERNAME=AnjilaTam
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 69 Stepping 1, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows NT 6.2 Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 69 stepping 1, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 16655320k(14167444k free), swap 33432536k(30418824k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (20.10-b01) for windows-amd64 JRE (1.6.0_35-b10), built on Aug 28 2012 16:50:10 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Tue Apr 22 18:48:49 2014
+elapsed time: 0 seconds
+
